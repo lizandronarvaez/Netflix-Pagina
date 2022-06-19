@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image:linear-gradient(180deg,#0000008c 0%,#0000008c 100%),url("https://assets.nflxext.com/ffe/siteui/vlv3/3e521d6d-a53b-4c3f-a85f-dd77c06f7ac7/2ee5f18a-18d6-48ee-ae6e-2db26101afbf/ES-es-20220425-popsignuptwoweeks-perspective_alpha_website_large.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+}
+
+/* Cabecera de la pagina */
+
+.netflix-head-head{
+    display: flex;
+}
+.netflix-head-head h1{
+    margin: 30px 0 0 30px;
+    font-size: 60px;
+    color: red;
+    transform: ;
+    
+}
+option{
+    background-color: gray;
+}
+.netflix-head-head select{
+    text-align: center;
+    font-size: 15px;
+    height:40px;
+    width: 100px;
+    color: white;
+    background-color:transparent;
+    margin-top: 40px;
+    margin-left: 1000px;
+}
+.netflix-head-head button{
+    border: none;
+    font-size: 15px;
+    border-radius: 6px;
+    height: 40px;
+    width: 130px;
+    margin: 40px 0 0 40px;
+    background-color: red;
+
+}
+
+.netflix-head-head a{
+    color: white;
+    text-decoration: none;
+}
+/* Cuerpo de la cabecera */
+.netflix-head-main{
+    color: white;
+    margin: 99px 0px;
+    padding: 100px 468px 143px;
+}
+.netflix-head-main p:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+.netflix-head-main p:nth-last-child(odd){
+    margin-left: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+.netflix-head-main p{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.netflix-head-main button{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    border-left: none;
+    background-color: red;
+
+}
+.netflix-head-main input{
+    border-right: none;
+}
+#enviar{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    width: 30px;
+}
+#email{
+    font-size: 17px;
+    color: gray;
+    padding: 0 0 0px 15px;
+    width: 580px;
+    height: 60px;
+
+}
