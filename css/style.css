@@ -52,6 +52,7 @@ option{
     text-decoration: none;
 }
 /* Cuerpo de la cabecera */
+
 .netflix-head-main{
     color: white;
     margin: 99px 0px;
@@ -85,11 +86,16 @@ option{
 .netflix-head-main input{
     border-right: none;
 }
+
+.netflix-head-main input:focus{
+outline:none;
+}
 #enviar{
     font-size: 20px;
     color: white;
     text-decoration: none;
     width: 30px;
+    border-style:none;
 }
 #email{
     font-size: 17px;
