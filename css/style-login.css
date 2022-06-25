@@ -36,6 +36,7 @@
     background: rgba(0, 0, 0, 0.8);
     color:var(--color-text2);
     transform: translateY(-60px);
+    border-radius: 15px;
 }
 
 /* Formulario */
@@ -133,13 +134,14 @@ input::placeholder {
     margin-left: 100px;
 }
 .list-footer1,.list-footer2{
-    margin-left: 100px;
-    margin-top: 65px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
 }
 .footer-container ul li{
     list-style: none;
     margin-top: 20px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 #idioma{
     margin-top: 200px;
