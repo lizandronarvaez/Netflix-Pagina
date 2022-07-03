@@ -6,6 +6,8 @@
 
 body {
     background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url("https://assets.nflxext.com/ffe/siteui/vlv3/3e521d6d-a53b-4c3f-a85f-dd77c06f7ac7/2ee5f18a-18d6-48ee-ae6e-2db26101afbf/ES-es-20220425-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: auto;
+    width: auto;
 }
 
 /* Cabecera de la pagina */
@@ -73,16 +75,20 @@ option {
     margin-bottom: 20px;
 }
 
-#enviar {
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    width: 100px;
+.form button {
+    width: 95px;
+    height: 65px;
+    margin-left: -7px;
     border-style: none;
-    height: 60px;
     border-left: none;
     background-color: red;
+    cursor: pointer;
 
+}
+.enviar{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px
 }
 
 .netflix-main input {
@@ -96,11 +102,28 @@ option {
 #email {
     font-size: 17px;
     color: gray;
-    padding: 0 0 0px 15px;
-    width: 540px;
-    height: 60px;
+    padding-left: 15px;
+    width: 520px;
+    height: 65px;
 
 }
+/* zona animation */
+
+.animation{
+    border-top: 10px solid grey;
+    background-color: #000;
+    height: auto;
+}
+
+.animation img{
+    margin: 0 420px;
+}
+.animation video{
+    transform: translate(510px, -380px);
+    width: 450px;
+}
+
+
 
 /* media queries */
 @media (max-width: 420px) {
@@ -111,7 +134,7 @@ option {
     }
 
     .netflix-head {
-        margin-left: 150px;
+        margin-left: 152px;
         margin-top: -30px;
 
     }
